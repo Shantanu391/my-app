@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('SCM Checkout') {
             steps {
-                git 'https://github.com/Shantanu391/java-jenkins'
+                git 'https://github.com/Shantanu391/my-app.git'
             }
         }
         stage('Compile-Package') {
